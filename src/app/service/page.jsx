@@ -91,7 +91,7 @@ export default function ServicesPage() {
       {/* End Pricing Section */}
       <Div className="container">
         <Cta
-          title="Ready to speak with a <i>digital</i> <br /> expert? Give us a ring"
+          title="Ready to speak with a <i>coding</i> <br /> expert? Give me a ring"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

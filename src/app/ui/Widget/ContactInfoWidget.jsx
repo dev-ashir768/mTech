@@ -24,7 +24,7 @@ export default function ContactInfoWidget({ withIcon, title }) {
           ) : (
             ""
           )}
-mTech@gmail.com
+          mTech@gmail.com
         </li>
         <li>
           {withIcon ? (

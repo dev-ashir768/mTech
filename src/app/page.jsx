@@ -50,8 +50,8 @@ export default function MarketingAgencyHome() {
   return (
     <>
       <Hero5
-        title="Revolutionising <br /> Digital Solution"
-        subtitle="Transform Your Brand with mTech – Your Ultimate Partner in Digital Growth and Innovation!"
+        title="Where Creativity <br /> Meets Code"
+        subtitle="Your Brand, Our Code – mTech Leads Your Digital Evolution by Blending Innovation, Technology, and Growth-Driven Strategies."
         btnLink="contact"
         btnText="Let’s talk"
         socialLinksHeading="Follow Us"
@@ -93,16 +93,16 @@ export default function MarketingAgencyHome() {
           bgUrl="/images/funfact_shape_bg.svg"
         />
       </Div>
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" /> */}
 
-      <Div className="container">
+      {/* <Div className="container">
         <SectionHeading
           title="Providing Effective <br/> Solutions at the best price"
           subtitle="Pricing"
         />
         <Spacing lg="85" md="40" />
         <PricingTableList />
-      </Div>
+      </Div> */}
       <Spacing lg="65" md="55" />
 
       <MovingText text="More than a vendor, a trusted mTech." />
@@ -110,7 +110,7 @@ export default function MarketingAgencyHome() {
 
       <Div className="container">
         <Cta
-          title="Ready to speak with a <i>digital</i> <br /> expert? Give us a ring"
+          title="Ready to speak with a <i>coding</i> <br /> expert? Give me a ring"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg_2.jpeg"

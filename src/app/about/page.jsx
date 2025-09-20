@@ -36,7 +36,6 @@ export default function AboutPage() {
         pageLinkText="About Us"
       />
 
-    
       {/* End Page Heading Section */}
 
       {/* Start About Section */}
@@ -50,7 +49,13 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Welcome to mTech! We're a team of trained professionals who help clients from all over the United Kingdom. Our goal is to provide top notch services including digital solution, web development, app development and SEO. Our services deliver on every front without breaking the bank. We’re all about mastering our craft, telling compelling stories, and creating content that people love.
+                Welcome to mTech! We're a team of trained professionals who help
+                clients from all over the United Kingdom. Our goal is to provide
+                top notch services including digital solution, web development,
+                app development and SEO. Our services deliver on every front
+                without breaking the bank. We’re all about mastering our craft,
+                telling compelling stories, and creating content that people
+                love.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -95,8 +100,8 @@ export default function AboutPage() {
       {/* Start Fun Fact Section */}
       <Div className="container">
         <FunFact2
-          title="Our Supermacy"
-          subtitle="Transform Your Brand with mTech – Your Ultimate Partner in Digital Growth and Innovation!"
+          title="My Supermacy"
+          subtitle="Your Brand, Our Code – mTech Leads Your Digital Evolution by Blending Innovation, Technology, and Growth-Driven Strategies."
           data={funfaceData}
         />
       </Div>
@@ -127,11 +132,17 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              At mTech, we blend customer insights with creativity to deliver effective, affordable digital solution. We help businesses across United Kingdom grow with engaging stories, captivating content, and result-driven strategies
+                At mTech, we blend customer insights with creativity to deliver
+                effective, affordable digital solution. We help businesses
+                across United Kingdom grow with engaging stories, captivating
+                content, and result-driven strategies
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-              What sets us apart? We prioritize understanding your brand and crafting tailored strategies that deliver real results. At mTech, we provide creative and effective solutions, helping your business grow without the hefty price tag.
+                What sets us apart? We prioritize understanding your brand and
+                crafting tailored strategies that deliver real results. At
+                mTech, we provide creative and effective solutions, helping your
+                business grow without the hefty price tag.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -146,7 +157,7 @@ export default function AboutPage() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Cta
-          title="Ready to speak with a <i>digital</i> <br /> expert? Give us a ring"
+          title="Ready to speak with a <i>coding</i> <br /> expert? Give me a ring"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
